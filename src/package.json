@@ -1,0 +1,16 @@
+{
+  "name": "aegon-test-project",
+  "version": "1.0.0",
+  "description": "Second level selection aegon",
+  "main": "main.js",
+  "scripts": {
+    "start": "node --inspect main/main.js",
+    "test": "mocha test/test-pages.js"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.16.2",
+    "mocha": "^8.5.0",
+    "request": "^2.83.0"
+  }
+}
